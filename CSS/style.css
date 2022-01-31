@@ -1,0 +1,15 @@
+
+/* ínicio da login-page (main (section))*/
+
+body{
+    overflow-y: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: space-betwee;
+}
+
+.container{
+    background-color: blueviolet;
+}
