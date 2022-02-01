@@ -6,35 +6,38 @@ main{
 #container-left{
     width: 50%;
     height: 100vh;
-
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
     box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
     flex-grow: 1;
 }
 
-#greeting h1{
-    background-color: rgb(255, 0, 191);
-    width: 5em;
-    font-size: 3em;
-
+#container-left-center{
+    flex-direction: column;
     display: flex;
     align-items: center;
-    flex-flow: column wrap;
-    
-    
+    background-color: blue;
+    margin: 4em 0;
 }
 
 #greeting{
-    background-color: red;
-    font-size: 2em;
-    width: 5em;
-
+    margin: 9em;
+    width: 50%;
+    flex-direction: column;
     display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    
-   
 }
+
+#greeting h1{
+    margin: 0 0 0.3em;
+    width: 5em;
+    font-size: 3.5em;
+    display: flex; 
+}
+
+#greeting p{
+    font-size: 1em;
+    /* margin: -1em 0; */
+}
+
 
 #container-right{
     width: 50%;
