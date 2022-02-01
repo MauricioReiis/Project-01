@@ -1,6 +1,6 @@
-main{
-    display: flex;
-    flex-grow: 1;
+#loginPage{
+    display:flex;
+
 }
 
 #container-left{
@@ -11,19 +11,13 @@ main{
     flex-grow: 1;
 }
 
-#container-left-center{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    background-color: blue;
-    margin: 4em 0;
-}
 
 #greeting{
-    margin: 9em;
+    align-items: center;
     width: 50%;
     flex-direction: column;
     display: flex;
+    background-color: rgb(255, 0, 191);
 }
 
 #greeting h1{
