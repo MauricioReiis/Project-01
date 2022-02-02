@@ -1,18 +1,14 @@
-
-#input-login-page h2{
-    display: flex;
+#container-login h2{
     font-size: 2em;
-    /* justify-content: flex-start; */
-    margin: 1em 0; /* EDITAR DEPOIS */
 }
 
-#input-login-page{
+#container-login{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 
     height: 50%;
-    width: 50%;
+    width: 100%;
 }
 
 .box-input-login-page{
@@ -21,26 +17,26 @@
     justify-content: flex-end;
 
     width: 100%;
-    height: 11%;
+    height: 13%;
 }
 
 .box-input-login-page img{
-    margin: 0 -2em; /* EDITAR DEPOIS */
+    margin: 0 -2em; 
+}
+
+.input-login-page::placeholder{
+    color: #FFFFFF;
 }
 
 .input-login-page{
     background: #26292C;
     background-color: transparent;
     font-size: 1em;
-
-    padding: 0 1em;  /* EDITAR DEPOIS */
-
+    padding: 0 1em;  
     width: 100%;
-    height: 80%;
-
+    height: 100%;
     border: 1px solid #FFFFFF;
     border-radius: 50px;
-
     color: #FFFFFF;
 }
 
@@ -49,8 +45,17 @@
 }
 
 
+#message-error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
 #message-error p{
+    text-align: center;
     color: #E9B425;
-    margin: 3em 0;   /* EDITAR DEPOIS */
+    width: 65%;
 
 }
