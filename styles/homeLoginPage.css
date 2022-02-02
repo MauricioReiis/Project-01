@@ -1,9 +1,13 @@
-#loginPage{
+#login-page{
     display:flex;
-
 }
 
 #container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
     width: 50%;
     height: 100vh;
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -13,11 +17,10 @@
 
 
 #greeting{
-    align-items: center;
+    
     width: 50%;
     flex-direction: column;
     display: flex;
-    background-color: rgb(255, 0, 191);
 }
 
 #greeting h1{
@@ -29,7 +32,6 @@
 
 #greeting p{
     font-size: 1em;
-    /* margin: -1em 0; */
 }
 
 

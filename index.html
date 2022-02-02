@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
-        <title>Projeto 01</title>
+        <title>Compass First Project</title>
     </head>
 
     <body>
         <main>
-            <section id="loginPage">
+            <section id="login-page">
                 <div id="container-left">
                     <div id="greeting">
                         <h1>Olá,</h1>
@@ -20,17 +19,28 @@
                     <div id="input-login-page">
                         <h2>Login</h2>
 
-                        <div id="box-user">
-                            <input type="text" id="text-login-page" required placeholder="Usuário">
-                            <img src="" alt="">
+                        <div id="input-text" class="box-input-login-page">
+                            <input type="text" class="input-login-page" required placeholder="Usuário">
+                            <div>   
+                                <img src="./assets/logo_user.png" alt="Ícone Usuário">
+                            </div>
                         </div>
 
-                        <div id="box-password">
-                            <input type="password" id="password-login-page" required placeholder="Senha">
-                            <img src="" alt="">
-                            <button>
-                                Continuar</button>
+                        <div id="input-password" class="box-input-login-page">
+                            <input type="password" class="input-login-page" required placeholder="Senha">
+                            <div>   
+                                <img src="./assets/logo_password.png" alt="Ícone Senha">
+                            </div>
                         </div>
+
+                        <div id="message-error"> 
+                            <p> Ops, usuário ou senha inválidos.<br>Tente novamente! </p>
+                        </div>
+
+                        <div id="box-button-continue">   
+                            <button id="button-continue">Continuar</button>
+                        </div>
+
                     </div>
                 </div>
 
@@ -42,7 +52,10 @@
 
             </section>
 
-            <section id="homePage"></section>
+            <section id="home-page">
+
+
+            </section>
         </main>
         <script type="module" src="index.js"></script>
     </body>

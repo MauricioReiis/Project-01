@@ -1,0 +1,19 @@
+#box-button-continue{
+    width: 100%;
+    height: 11%;
+}
+
+#button-continue{
+    border: 0;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#button-continue:hover{
+    background: #FF2D04;
+}
