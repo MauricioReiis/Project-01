@@ -54,6 +54,7 @@
 }
 
 #message-error p{
+    display: none;
     text-align: center;
     color: #E9B425;
     width: 65%;
