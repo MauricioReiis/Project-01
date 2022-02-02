@@ -1,7 +1,9 @@
 export default function passwordLogical() {
 
+    // window.document.location.href = "/login"
+    // console.log(window.document.location)
+
     const $ = document.querySelector.bind(document)
-    const $$ = document.querySelectorAll.bind(document)
 
     const loginPage = $("#login-page")
     const homePage = $("#home-page")
