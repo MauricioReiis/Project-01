@@ -1,3 +1,3 @@
-import teste from "./scripts/button.js"
+import passwordLogical from "./scripts/password-logical.js"
 
-teste()
+passwordLogical()
