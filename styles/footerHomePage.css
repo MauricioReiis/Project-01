@@ -1,7 +1,14 @@
 footer{
-    position: absolute;
+    display: flex;
+    direction: row;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
-    
+    color: #FFFFFF;
     height: 10vh;
     width: 100vw;
 }
+
+#paragraph-footer{
+    display: flex;
+    background-color: rgb(20, 255, 32);
+}
+
