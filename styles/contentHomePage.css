@@ -1,0 +1,41 @@
+#home-page{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    flex-direction: row;
+}
+
+#container-left-home{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#box-logo{
+    width: 100%;
+    height: 10%;
+}
+
+#box-logo img{
+    margin: 1em;
+}
+
+#box-ball{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 80%;
+}
+
+#box-ball img{
+    width: 60%;
+    margin: -3em;
+}
+
+#container-right-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}

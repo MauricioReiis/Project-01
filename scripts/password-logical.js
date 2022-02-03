@@ -1,5 +1,6 @@
 export default function passwordLogical() {
 
+
     // window.document.location.href = "/login"
     // console.log(window.document.location)
 
@@ -21,7 +22,8 @@ export default function passwordLogical() {
             password.style.border =  "1px solid #E9B425"
         } else {
             loginPage.style.display = "none";
-            homePage.style.display = "block";
+            homePage.style.display = "flex";
+            document.title = "Home - First Project"
         }
     })
 }
