@@ -1,5 +1,5 @@
 import passwordLogical from "./scripts/password-logical.js"
-import clockLogical from "./scripts/clock-logical"
+import clockLogical from "./scripts/clock-logical.js"
 
 passwordLogical()
 
