@@ -44,6 +44,12 @@
     outline-width: 0;
 }
 
+.input-password{
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    padding-left: 20px;
+}
+
 
 #message-error{
     display: flex;

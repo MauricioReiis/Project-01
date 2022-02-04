@@ -1,7 +1,6 @@
 export default function passwordLogical() {
 
     const $ = document.querySelector.bind(document)
-    const $$ = document.querySelectorAll.bind(document)
 
     const loginPage = $("#login-page")
     const homePage = $("#home-page")
@@ -11,6 +10,14 @@ export default function passwordLogical() {
 
     const errorMensage = $("#message-error p")
     const button = $("#button-continue")
+
+    password.addEventListener("input", () => {
+        if (password.value != "") {
+          password.classList.add("input-password");
+        } else {
+          password.classList.remove("input-password");
+        }
+    });
 
     button.addEventListener("click", () => {
         if (user.value !== "admin" || password.value !== "admin"){
@@ -22,4 +29,6 @@ export default function passwordLogical() {
             homePage.style.display = "block";
         }
     })
+
+    
 }
