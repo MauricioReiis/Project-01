@@ -1,4 +1,5 @@
 #login-page{
+    display: none;
     display:flex;
     color: #E0E0E0;
 }
@@ -8,7 +9,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
     width: 50%;
     height: 100vh;
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -45,7 +46,7 @@
     margin: 0 0 0.3em;
     width: 5em;
     font-size: 3.5em;
-    display: flex; 
+    display: flex;
 }
 
 #content-greeting p{

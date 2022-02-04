@@ -1,7 +1,8 @@
+
 #container-footer{
     position: relative;
     display: grid;
-    grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
+    grid-template-columns: 16.6% 27.6% 7.8% 5.5% 5% 23.5% 7% 7%;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
     color: #FFFFFF;
     height: 10vh;
@@ -13,6 +14,7 @@
     align-items: center;
     grid-column: 2;
     font-size: 0.7em;
+    text-align: right;
 }
 
 #side-bar-footer{
@@ -60,7 +62,6 @@
     color: #C13216;
     font-weight: bold;
     background-color: #ffffff;
-
     grid-column: 7;
 }
 
