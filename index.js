@@ -8,5 +8,3 @@ logout()
 setInterval(() => {
     clockLogical()
 }, 1000);
-
-
