@@ -1,11 +1,15 @@
 export default function timerCountDown(){
 
     const $ = document.querySelector.bind(document)
-    const seconds = $("#footer-seconds h2")
-    let secondsUpdated = parentInt(seconds)
+    const seconds = $("#footer-seconds")
+    let number = 600
 
-    setInterval(function() {
-        console.log(secondsUpdated)
+    setInterval(() => {
+        seconds.innerHTML = number
+        number--
+        if(number === 0){
+            window.location.reload()
+        } 
     },1000);
     
 }

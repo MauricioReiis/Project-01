@@ -1,3 +1,5 @@
+import timerCountDown from "./timer-count-down.js"
+
 export default function passwordLogical() {
 
     const $ = document.querySelector.bind(document)
@@ -28,6 +30,7 @@ export default function passwordLogical() {
             loginPage.style.display = "none";
             homePage.style.display = "flex";
             document.title = "Home - First Project"
+            timerCountDown()
         }
     });
 }
