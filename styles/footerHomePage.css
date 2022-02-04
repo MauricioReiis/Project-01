@@ -40,6 +40,7 @@
     justify-content: center;
     align-items: center;
     grid-column: 5;
+    margin-left: 3em;
 }
 
 #box-seconds h2{
