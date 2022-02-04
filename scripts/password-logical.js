@@ -29,5 +29,5 @@ export default function passwordLogical() {
             homePage.style.display = "flex";
             document.title = "Home - First Project"
         }
-    })  
+    });
 }

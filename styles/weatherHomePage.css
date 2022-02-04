@@ -1,0 +1,8 @@
+#weather{
+    display: flex;
+    margin: 3em;
+    width: 100%;
+    justify-content: flex-end;
+
+    font-weight: bolder;
+}

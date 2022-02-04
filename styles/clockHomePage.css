@@ -1,0 +1,25 @@
+#box-clock-weather{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+#clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color: #222222;
+}
+
+#clock h1{
+    font-size: 8em;
+    font-weight: bold;
+}
+
+#clock p{
+    font-size: 0.8em;
+    font-weight: bold;
+}
