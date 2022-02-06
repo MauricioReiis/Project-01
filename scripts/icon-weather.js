@@ -1,11 +1,7 @@
-
 export default function iconWeather(dados){
 
-    
     const $ = document.querySelector.bind(document)
-
     let weather = dados.current.condition.text
-
     let addIcon = ""
 
     if(weather.includes("thunder")){
@@ -24,9 +20,6 @@ export default function iconWeather(dados){
         addIcon = "../assets/raining.png"
         
     }
-    console.log(addIcon)
-
     return addIcon
     
-
 }

@@ -4,9 +4,7 @@ export default function weatherLogical(){
 
     .then(resposta => resposta.json()) 
     .then(dados => {
-        console.log(dados)
         const $ = document.querySelector.bind(document)
-
         const city = $("#weather-city-state p")
         // const state = dados.location.region
         const temp = $("#weather-temperature p")
