@@ -1,5 +1,5 @@
 #home-page{
-    display: none;
+    display: flex;
     height: 100vh;
     width: 100%;
     flex-direction: column;
