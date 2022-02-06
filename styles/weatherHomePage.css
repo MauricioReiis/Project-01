@@ -1,8 +1,48 @@
 #weather{
     display: flex;
+    flex-direction: column;
     margin: 3em;
-    width: 100%;
+    width: 70%;
     justify-content: flex-end;
-
-    font-weight: bolder;
 }
+
+#weather-city-state{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: blueviolet; */
+    height: 40%;
+    color: #222222;
+}
+
+
+#weather-data{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(56, 12, 12); */
+    height: 100%;
+}
+
+#weather-icon{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(177, 0, 147); */
+    width: 30%;
+}
+
+#weather-icon img{
+    width: 40px;
+    height: 40px;
+    margin: 0 1em;
+}
+
+#weather-temperature{
+    /* background-color: rgb(146, 0, 0); */
+    height: 100%;
+}
+
+#weather-temperature p{
+    font-size: 2.5em;
+    font-weight: 1000;
+    color: #222222;
+}
+
