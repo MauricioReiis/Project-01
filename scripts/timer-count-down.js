@@ -8,6 +8,7 @@ export default function timerCountDown(){
         seconds.innerHTML = number
         number--
         if(number === 0){
+            history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01")
             window.location.reload()
         } 
     },1000);

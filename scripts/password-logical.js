@@ -27,6 +27,7 @@ export default function passwordLogical() {
             user.style.border =  "1px solid #E9B425"
             password.style.border =  "1px solid #E9B425"
         } else {
+            history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01/home")
             loginPage.style.display = "none";
             homePage.style.display = "flex";
             document.title = "Home - First Project"
