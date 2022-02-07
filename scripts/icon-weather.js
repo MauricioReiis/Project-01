@@ -5,19 +5,19 @@ export default function iconWeather(dados){
     let addIcon = ""
 
     if(weather.includes("thunder")){
-        addIcon = "../assets/storm.png"
+        addIcon = "./assets/storm.png"
         
     }else if(weather.includes("Sun")){
-        addIcon = "../assets/sun.png"
+        addIcon = "./assets/sun.png"
 
     }else if(weather.includes("fog")){
-        addIcon = "../assets/cloud.png"
+        addIcon = "./assets/cloud.png"
 
     }else if(weather.includes("Cloudy")){
-        addIcon = "../assets/cloudy.png"
+        addIcon = "./assets/cloudy.png"
 
     }else if(weather.includes("rain")){
-        addIcon = "../assets/raining.png"
+        addIcon = "./assets/raining.png"
         
     }
     return addIcon
