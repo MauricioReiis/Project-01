@@ -8,10 +8,6 @@
     height: 75%;
 }
 
-.box-paragraph-main{
-    margin: 0.5em 0;
-}
-
 .paragraph-main{
     color: #C12D18;
     font-weight: bold;
@@ -21,13 +17,14 @@
 #paragraph-mission{
     color: #C12D18;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2.3em;
 }
 
 .paragraph-simple{
-    font-weight: bold;
+    font-size: 1.46em;
+    margin: 0.3em;
 }
 
 #paragraph-growth-customers{
-    margin: 1em 0;
+    margin: 0.6em 0;
 }

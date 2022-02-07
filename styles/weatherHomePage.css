@@ -18,25 +18,22 @@
 #weather-data{
     display: flex;
     justify-content: flex-end;
-    /* background-color: rgb(56, 12, 12); */
     height: 100%;
 }
 
 #weather-icon{
     display: flex;
     justify-content: flex-end;
-    /* background-color: rgb(177, 0, 147); */
     width: 30%;
 }
 
 #weather-icon img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin: 0 1em;
 }
 
 #weather-temperature{
-    /* background-color: rgb(146, 0, 0); */
     height: 100%;
 }
 
