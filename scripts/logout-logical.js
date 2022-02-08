@@ -5,7 +5,7 @@ export default function logout(){
     const buttonLogout = $("#box-logout")
     
     buttonLogout.addEventListener("click", ()=> {
-        history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01")
+        // history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01")
         window.location.reload();
     })
 }

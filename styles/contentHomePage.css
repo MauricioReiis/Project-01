@@ -34,9 +34,10 @@
 }
 
 #big-box-icon-compass img{
-    width: 60%;
-    margin: -8%;
-    min-width: 500px;
+    position: absolute;
+    top: 12%;
+
+
 }
 
 #container-right-home{

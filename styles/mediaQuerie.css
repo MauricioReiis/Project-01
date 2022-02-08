@@ -1,0 +1,25 @@
+
+@media (max-width: 770px) {
+    #container-right {
+      display: none;
+      
+    }
+    #content-container-left {
+      width: 80%;
+    }
+
+    #white-logo-mobile{
+        position: absolute;
+        height: 50px;
+        right: 5%;
+        top: 5%;
+    }
+}
+
+@media (min-width: 769px) {
+    #white-logo-mobile{
+        display: none;
+    }
+}
+
+
