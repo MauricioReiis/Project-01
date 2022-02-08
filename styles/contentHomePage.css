@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100%;
     flex-direction: column;
+    background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
 }
 
 #content-main-home-page{
