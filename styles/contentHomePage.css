@@ -1,4 +1,6 @@
 #home-page{
+    overflow-y: hidden;
+    overflow-x: hidden;
     display: none;
     height: 100vh;
     width: 100%;
@@ -7,8 +9,8 @@
 }
 
 #content-main-home-page{
-    display: flex;
     flex-direction: row;
+    display: flex;
     height: 90vh;
 }
 
@@ -25,7 +27,7 @@
 }
 
 #box-logo-compass img{
-    margin: 1em;
+    padding: 30px;
 }
 
 #big-box-icon-compass{
@@ -36,9 +38,8 @@
 
 #big-box-icon-compass img{
     position: absolute;
-    top: 12%;
-
-
+    bottom: 0;
+    max-width: 500px;
 }
 
 #container-right-home{

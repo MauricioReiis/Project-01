@@ -1,27 +1,28 @@
 #container-login h2{
-    font-size: 2em;
+    font-size: 32px;
 }
 
 #container-login{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-
+    flex-direction: column;
     height: 50%;
     width: 100%;
 }
 
 .box-input-login-page{
     display: flex;
-    align-items: center;
+    border: 1px solid #FFFFFF;
     justify-content: flex-end;
-
+    border-radius: 50px;
+    align-items: center;
     width: 100%;
     height: 13%;
+
 }
 
 .box-input-login-page img{
-    margin: 0 -2em; 
+   margin: 15px;
 }
 
 .input-login-page::placeholder{
@@ -31,13 +32,13 @@
 .input-login-page{
     background: #26292C;
     background-color: transparent;
-    font-size: 1em;
-    padding: 0 1em;  
-    width: 100%;
-    height: 100%;
-    border: 1px solid #FFFFFF;
-    border-radius: 50px;
     color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 0 3%;  
+    height: 100%;
+    width: 100%;
+    border: 0;
 }
 
 .input-login-page:focus{
@@ -45,15 +46,15 @@
 }
 
 .input-password{
-    letter-spacing: 5px;
-    font-size: 2.5em;
     padding-left: 20px;
+    letter-spacing: 5px;
+    font-size: 35px;
 }
 
 #message-error{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 10%;
 }
@@ -63,5 +64,4 @@
     text-align: center;
     color: #E9B425;
     width: 65%;
-
 }

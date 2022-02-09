@@ -6,10 +6,7 @@ export default function weatherLogical(){
     .then(dados => {
         const $ = document.querySelector.bind(document)
         const city = $("#weather-city-state p")
-        // const state = dados.location.region
         const temp = $("#weather-temperature p")
-        // console.log(city, state, temp, condition)
-
         city.textContent = `${dados.location.name} - MG`
         temp.textContent = `${dados.current.temp_c.toFixed(0)}° `
 

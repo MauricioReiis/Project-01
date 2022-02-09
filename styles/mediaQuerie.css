@@ -1,25 +1,172 @@
-
+/* LOGIN PAGE */
 @media (max-width: 770px) {
     #container-right {
       display: none;
-      
+
     }
     #content-container-left {
       width: 80%;
     }
 
     #white-logo-mobile{
-        position: absolute;
-        height: 50px;
-        right: 5%;
-        top: 5%;
+      position: absolute;
+      height: 50px;
+      right: 5%;
+      top: 5%;
     }
 }
 
 @media (min-width: 769px) {
     #white-logo-mobile{
-        display: none;
+      display: none;
     }
 }
 
+/* HOME PAGE */
 
+@media (max-width: 1740px) {
+  body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #content-main-home-page{
+    width: 100%;
+  }
+
+  #paragraph h3{
+    font-size: 54px;
+  }
+
+  #paragraph p{
+    font-size: 21px;
+    padding: 9px;
+  }
+
+  #container-footer{
+    grid-template-columns: 16.6% 27.6% 7.8% 5.5% 5% 17.5% 10% 10%;
+  }
+
+  #box-continue-sailing{
+    grid-column: 7;
+  }
+
+  #box-logout{
+    grid-column: 8;
+    margin-right: 23%;
+  }
+
+  #box-paragraph-footer{
+    font-size: 14px;
+  }
+
+  #container-footer{
+    grid-template-columns: 8.6% 37.6% 7.8% 5.5% 5% 17.5% 10% 10%;
+  }
+
+  #box-paragraph-footer{
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1470px) {
+  #paragraph h3{
+    font-size: 50px;
+  }
+
+  #paragraph p{
+    font-size: 19px;
+    padding-left: 9px;
+  }
+}
+
+@media (max-width: 1320px){
+  #box-seconds{
+    padding-left: 80px; 
+  }
+}
+
+@media (max-width: 1361px){
+  #paragraph h3{
+    font-size: 45px;
+  }
+
+  #paragraph p{
+    font-size: 17px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 1258px){
+  #paragraph h3{
+    font-size: 40px;
+  }
+
+  #paragraph p{
+    font-size: 17px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 1172px){
+  #paragraph h3{
+    font-size: 33px;
+  }
+
+  #paragraph p{
+    font-size: 15px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 1050px){
+  #big-box-icon-compass img{
+    max-width: 400px;
+  }
+
+  #box-paragraph{
+    display: none;
+  }
+
+  #box-clock-weather{
+    display: none;
+  }
+
+  #box-paragraph-footer{
+    display: none;
+  }
+
+  #side-bar-footer{
+    display: none;
+  }
+  #box-footer-refresh{
+    display: none;
+  }
+
+  #box-seconds{
+    display: none;
+  }
+
+  #container-footer{
+    grid-template-columns: 25% 75%;
+  }
+
+  #box-logout{
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    position: absolute;
+    grid-column: 1;
+    height: 100%;
+    width: 25%;
+    top: 0;
+  }
+
+  #box-continue-sailing{
+    grid-column: 2;
+  }
+}
+
+@media (max-height: 600px){
+  #big-box-icon-compass img{
+    max-width: 350px;
+  }
+}

@@ -9,30 +9,30 @@
         <script type="module" src="index.js" defer></script>
         <title>Login - First Project</title>
     </head>
-    <body>
+    <body onselectstart="return false"> 
         <main>
             <section id="login-page">
                 <div id="container-left">
                     <div id="content-container-left">
                         <div id="box-greeting">
                             <div id="content-greeting">
-                                <img id="white-logo-mobile" src="./assets/white_logo.png" alt="Logo branca da Compass">
+                                <img draggable="false" id="white-logo-mobile" src="./assets/white_logo.png" alt="Logo branca da Compass">
                                 <h1>Olá,</h1>
                                 <p>Para continuar navegando de forma<br>segura, efetue o login na rede.</p>
                             </div>
                         </div>
                         <div id="container-login">
                             <h2>Login</h2>
-                            <div class="box-input-login-page">
+                            <div id="textInput" class="box-input-login-page">
                                 <input type="text" id="input-text" class="input-login-page" required placeholder="Usuário">
                                 <div>
-                                    <img src="./assets/logo_user.png" alt="Ícone Usuário">
+                                    <img draggable="false" src="./assets/logo_user.png" alt="Ícone Usuário">
                                 </div>
                             </div>
-                            <div class="box-input-login-page">
+                            <div id="passwordInput" class="box-input-login-page">
                                 <input type="password" id="input-password" class="input-login-page" required placeholder="Senha">
                                 <div>
-                                    <img src="./assets/logo_password.png" alt="Ícone Senha">
+                                    <img draggable="false" src="./assets/logo_password.png" alt="Ícone Senha">
                                 </div>
                             </div>
                             <div id="message-error">
@@ -46,7 +46,7 @@
                 </div>
                 <div id="container-right">
                     <div id="white-logo">
-                        <img src="./assets/white_logo.png" alt="Logo branca da Compass">
+                        <img draggable="false" src="./assets/white_logo.png" alt="Logo branca da Compass">
                     </div>
                 </div>
             </section>
@@ -54,10 +54,10 @@
                 <div id="content-main-home-page">    
                     <div id="container-left-home"> 
                         <div id="box-logo-compass"> 
-                            <img src="./assets/black_logo.png" alt="Logo preta da Compass">
+                            <img draggable="false" src="./assets/black_logo.png" alt="Logo preta da Compass">
                         </div>
                         <div id="big-box-icon-compass">
-                            <img src="./assets/bola_logo_compass.png" alt="Logo principal da Compass">
+                            <img draggable="false" src="./assets/bola_logo_compass.png" alt="Logo principal da Compass">
                         </div>
                     </div>
                     <div id="container-right-home">
@@ -72,7 +72,7 @@
                                 </div>
                                 <div id="weather-data">
                                     <div id="weather-icon"> 
-                                        <img src="">
+                                        <img draggable="false" src="">
                                     </div>
                                     <div id="weather-temperature">
                                         <p>60°</p>
@@ -81,21 +81,15 @@
                             </div>
                         </div>
                         <div id="box-paragraph">    
-                            <div> 
-                                <h2 id="paragraph-mission">Our mission is</h2>
-                                <p class="paragraph-simple">Nossa missão é</p>
-                            </div>
-                            <div> 
-                                <h2 class="paragraph-main">to transform the world</h2>
-                                <p class="paragraph-simple">tranformar o mundo</p>
-                            </div>
-                            <div> 
-                                <h2 class="paragraph-main"> building digital experiences</h2>
-                                <p class="paragraph-simple">construindo experiências digitais</p>
-                            </div>
-                            <div> 
-                                <h2 class="paragraph-main">that enable our client's growth</h2>
-                                <p id="paragraph-growth-customers" class="paragraph-simple">que permitam o crecimento dos nossos clientes</p>
+                            <div id="paragraph"> 
+                                <h2>Our mission is</h2>
+                                <p>Nossa missão é</p>
+                                <h3>to transform the world</h3>
+                                <p>tranformar o mundo</p>
+                                <h3> building digital experiences</h3>
+                                <p>construindo experiências digitais</p>
+                                <h3 >that enable our client's growth</h3>
+                                <p>que permitam o crecimento dos nossos clientes</p>
                             </div>
                         </div>
                     </div>

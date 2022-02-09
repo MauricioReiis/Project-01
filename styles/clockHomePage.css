@@ -3,7 +3,7 @@
     flex-direction: row;
     height: 25%;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 17px;
 }
 
 #clock{
@@ -16,11 +16,11 @@
 }
 
 #clock h1{
-    font-size: 8em;
+    font-size: 144px;
     font-weight: bold;
 }
 
 #clock p{
-    font-size: 0.8em;
+    font-size: 14px;
     font-weight: bold;
 }
