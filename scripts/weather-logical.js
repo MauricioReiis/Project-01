@@ -14,5 +14,6 @@ export default function weatherLogical(){
         const iconHTML = $("#weather-icon img")
         iconHTML.src = icon
         
+        console.log(iconHTML)
     }) 
 }

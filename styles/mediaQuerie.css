@@ -124,26 +124,7 @@
     max-width: 400px;
   }
 
-  #box-paragraph{
-    display: none;
-  }
-
-  #box-clock-weather{
-    display: none;
-  }
-
-  #box-paragraph-footer{
-    display: none;
-  }
-
-  #side-bar-footer{
-    display: none;
-  }
-  #box-footer-refresh{
-    display: none;
-  }
-
-  #box-seconds{
+  #box-paragraph, #box-clock-weather, #box-paragraph-footer, #side-bar-footer, #box-footer-refresh ,#box-seconds{
     display: none;
   }
 
