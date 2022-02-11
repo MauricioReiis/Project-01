@@ -28,6 +28,9 @@ export default function passwordLogical() {
             errorMensage.style.display = "block"
             textInput.style.border =  "1px solid #E9B425"
             passwordInput.style.border =  "1px solid #E9B425"
+            password.value = ""
+            password.classList.remove("input-password")
+            user.value = ""
 
         } else {
             history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01/home")
