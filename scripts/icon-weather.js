@@ -16,7 +16,7 @@ export default function iconWeather(dados){
         addIcon = "./assets/cloudy.png"
         
 
-    }else if(weather.includes("rain")){
+    }else if(weather.includes("rain") || weather.includes("drizzle")){
         addIcon = "./assets/raining.png" 
     }
     return addIcon 
