@@ -28,6 +28,7 @@ export default function passwordLogical() {
             errorMensage.style.display = "block"
             textInput.style.border =  "1px solid #E9B425"
             passwordInput.style.border =  "1px solid #E9B425"
+
         } else {
             history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01/home")
             loginPage.style.display = "none";

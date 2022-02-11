@@ -11,6 +11,5 @@ export default function timerCountDown(){
             history.pushState(null, "Home - First Project", "https://mauricioreiis.github.io/Project-01")
             window.location.reload()
         } 
-    },1000);
-    
+    },1000);  
 }
